@@ -30,7 +30,7 @@ int main(int argc, char **argv)
   int i;
 
   if (argc < 3) {
-    fprintf(stderr, "usage: %s path/to/file.der severname\n", argv[0]);
+    fprintf(stderr, "usage: %s path/to/file.der servername\n", argv[0]);
     exit(1);
   }
 
